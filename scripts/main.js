@@ -14,9 +14,11 @@ tour = {
   Edmonton : "September 4th, 2018"
 }
 
+
+
 var x = 0;
 
 while (x <5) {
-  document.getElementById("Times running through the loop %d",x)
+  console.log("Times running through the loop %s",x)
   x++;
 }
